@@ -4,7 +4,6 @@ import OpenAI from "openai";
 
 const app = express();
 const port = 3005;
-const apiKey = "sk-proj-8P2M8yhPdJsdd4A88aRYT3BlbkFJ3Od9Dlhjd4ptOHVARLAc";
 const openai = new OpenAI({ apiKey: apiKey});
 
 app.use(cors());
