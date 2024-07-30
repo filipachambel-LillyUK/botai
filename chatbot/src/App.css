@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-cnt{
+  border: 1px solid black;
+  position: relative;
+  height: 30rem;
+  width: 25rem;
+}
+
+.main-conversation-window{
+  background-color: grey;
+}
+
+.main-header{
+background-color: red;
+color: white;
+position: absolute;
+top: 0;
+width: 100%;
+}
+
+.answer-prompt-cnt{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.answer-prompt-cnt input{
+  width: 80%;
+  border-radius: 1rem;
+  border: 2px solid red;
+}
+
+.answer-prompt-cnt input:focus{
+  border: 2px solid red;
+}
